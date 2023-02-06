@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aye Mya",
+      "author": "typicode"
+    },
+    {
+      "name": "Luis Gulgowski",
+      "id": 2
+    },
+    {
+      "name": "Kristi Murphy",
+      "id": 3
+    },
+    {
+      "name": "Lawrence Parisian",
+      "id": 5
+    },
+    {
+      "name": "Alejandro Murazik",
+      "id": 6
+    },
+    {
+      "name": "Meghan Bartoletti",
+      "id": 7
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "photos": {
+    "name": "typicode"
+  }
+}
