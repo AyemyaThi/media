@@ -15,7 +15,7 @@ const UserListItem = ({user}) => {
     }
 
     const header = <>
-        <Button loading={isDeletingUser} onClick={handleUserRemove}>
+        <Button className="mr-2" loading={isDeletingUser} onClick={handleUserRemove}>
             <GoTrashcan />
         </Button>
         {deletingUserError && <div>Error Deleting User</div>}
