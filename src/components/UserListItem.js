@@ -1,5 +1,5 @@
 import Button from "./Button";
-import { GoTrashcan } from "react-icons/go";
+import { GoTrash } from "react-icons/go";
 import { removeUser } from "../store";
 import { useThunk } from "../hooks/use-thunk";
 import ExpandablePanel from "./ExpandablePanel";
@@ -16,7 +16,7 @@ const UserListItem = ({user}) => {
 
     const header = <>
         <Button loading={isDeletingUser} onClick={handleUserRemove}>
-            <GoTrashcan />
+            <GoTrash />
         </Button>
         {deletingUserError && <div>Error Deleting User</div>}
         {user.name}
