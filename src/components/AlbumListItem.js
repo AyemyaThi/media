@@ -1,5 +1,5 @@
 import Button from './Button';
-import { GoTrashcan } from 'react-icons/go';
+import { GoTrash } from 'react-icons/go';
 import { useRemoveAlbumMutation } from '../store';
 import ExpandablePanel from './ExpandablePanel';
 import PhotosList from './PhotosList';
@@ -15,7 +15,7 @@ const AlbumListItem = ({album}) => {
    
     const header = <>
         <Button className="mr-2" onClick={handleAlbumRemove} loading={removeAlbumResults.isLoading}>
-            <GoTrashcan />
+            <GoTrash />
         </Button>
         <p className='text-green-600'>
             #{album.id}: {album.title}
